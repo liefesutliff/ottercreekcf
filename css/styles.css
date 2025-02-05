@@ -223,6 +223,10 @@ footer {
   .mediaButtons {
     font-size: 30px;
   }
+
+  .orgs {
+    height: 80px;
+  }
 }
 
 @media all and (max-width: 590px) {
