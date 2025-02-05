@@ -224,3 +224,24 @@ footer {
     font-size: 30px;
   }
 }
+
+@media all and (max-width: 590px) {
+  .retreatVideos2024, .retreatVideos2023 {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding-top: 56.25%; /* Aspect ratio for 16:9 (height is 9/16 of the width) */
+  }
+  
+  .retreatVideos2024 iframe, .retreatVideos2023 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensures the iframe fills the parent container while preserving aspect ratio */
+  }
+  
+  .mediaButtons {
+    font-size: 20px;
+  }
+}
