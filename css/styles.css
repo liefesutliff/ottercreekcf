@@ -80,20 +80,36 @@ h2 {
   background-color: black;
 }
 
-.latestSermon, .constDownload {
+.prevSermons {
   color: white;
-  background-color: black;
-  font-size: 50px;
+  background-color: rgb(230, 0, 0);
+  font-size: 40px;
   padding: 20px;
   border-radius: 8px;
   text-decoration: none;
 }
 
-.latestSermon:hover, .constDownload:hover {
+.prevSermons:hover {
   transition-duration: 0.6s;
-  background-color: rgb(100, 100, 100);
+  background-color: red;
   cursor: pointer;
 }
+
+.latestSermonVideo {
+  position: relative;
+  width: 100%; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding-top: 56.25%; /* Aspect ratio for 16:9 (height is 9/16 of the width) */
+}
+
+.latestSermonVideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ensures the iframe fills the parent container while preserving aspect ratio */
+}
+
 
 .mediaButtons {
   color: white;
@@ -101,8 +117,24 @@ h2 {
   font-size: 50px;
   padding: 20px;
   border-radius: 8px;
+  text-decoration: none;
   cursor: pointer;
 }
+
+.mediaButtons:hover {
+  transition-duration: 0.6s;
+  color: black;
+  background-color: white;
+}
+
+#links > a {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+} /* Unvisited link  */
+#links:visited > a {color: white;} /* Visited link    */
+#links:hover > a {color: white;} /* Mouse over link */
+#links:active > a {color: white;} /* Selected link   */
 
 .homeVerse {
   font-size: 30px;
@@ -132,4 +164,63 @@ footer {
   text-align: center;
   font-weight: bold;
   padding: 1px;
+}
+
+/* Default Hamburger Menu (Hidden) */
+.hamburger {
+  display: none;
+  font-size: 40px;
+  cursor: pointer;
+  color: black;
+}
+
+@media all and (max-width: 1050px) {
+  .navBar {
+    gap: 25px;
+  }
+
+  .navBar a {
+    font-size: 35px;
+  }
+}
+
+@media all and (max-width: 930px) {
+  .navBar {
+    gap: 20px;
+  }
+
+  .navBar a {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 815px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .navBar a {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 30px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  .navBar.showMenu a {
+    display: block;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .mediaButtons {
+    font-size: 30px;
+  }
 }
