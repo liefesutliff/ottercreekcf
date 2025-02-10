@@ -35,10 +35,10 @@ function womensRetreat2024() {
   } else {
     // Inject new content if the div is empty
     divElement.innerHTML = `
-      <div class="videoSize"><iframe src="https://www.youtube.com/embed/EJvKXbpLDSY?si=PHv64iuDw2yHvRLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-      <div class="videoSize"><iframe src="https://www.youtube.com/embed/ktjagTqU4to?si=62cjM5froVOilM6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-      <div class="videoSize"><iframe src="https://www.youtube.com/embed/xXdZUW44wPM?si=VRLNeQA4dfdx9nBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-      <div class="videoSize"><iframe src="https://www.youtube.com/embed/Hq7PQUkItnM?si=BEOddL5Dzeopw1os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="videoSize"><iframe src="https://www.youtube.com/embed/EJvKXbpLDSY?si=PHv64iuDw2yHvRLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
+      <div class="videoSize"><iframe src="https://www.youtube.com/embed/ktjagTqU4to?si=62cjM5froVOilM6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
+      <div class="videoSize"><iframe src="https://www.youtube.com/embed/xXdZUW44wPM?si=VRLNeQA4dfdx9nBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
+      <div class="videoSize"><iframe src="https://www.youtube.com/embed/Hq7PQUkItnM?si=BEOddL5Dzeopw1os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
     `;
     retreat2024ContentVisible = true; // Update the flag
   }
