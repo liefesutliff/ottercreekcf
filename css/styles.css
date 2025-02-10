@@ -96,19 +96,9 @@ h2 {
   cursor: pointer;
 }
 
-.latestSermonVideo {
-  position: relative;
-  width: 100%; /* Adjust width as needed */
-  margin: 0 auto; /* Centers the container horizontally */
-  padding-top: 56.25%; /* Aspect ratio for 16:9 (height is 9/16 of the width) */
-}
-
 .latestSermonVideo iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; /* Ensures the iframe fills the parent container while preserving aspect ratio */
+  width: 1120px;
+  height: 630px;
 }
 
 
@@ -180,6 +170,13 @@ footer {
   color: black;
 }
 
+@media all and (max-width: 1150px) {
+  .latestSermonVideo iframe {
+    width: 920px;
+    height: 430px;
+  }
+}
+
 @media all and (max-width: 1050px) {
   .navBar {
     gap: 25px;
@@ -197,6 +194,11 @@ footer {
 
   .navBar a {
     font-size: 30px;
+  }
+
+  .latestSermonVideo iframe {
+    width: 720px;
+    height: 330px;
   }
 }
 
@@ -225,6 +227,20 @@ footer {
   }
 }
 
+@media all and (max-width: 730px) {
+  .latestSermonVideo iframe {
+    width: 520px;
+    height: 330px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .latestSermonVideo iframe {
+    width: 380px;
+    height: 230px;
+  }
+}
+
 @media all and (max-width: 660px) {
   .mediaButtons {
     font-size: 30px;
@@ -242,6 +258,11 @@ footer {
 
 @media all and (max-width: 470px) {
   .videoSize > iframe {
+    width: 360px;
+    height: 170px;
+  }
+
+  .latestSermonVideo iframe {
     width: 360px;
     height: 170px;
   }
