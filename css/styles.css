@@ -219,7 +219,7 @@ footer {
 
   .latestSermonVideo iframe {
     width: 720px;
-    height: 330px;
+    height: 400px;
   }
 }
 
@@ -268,7 +268,7 @@ footer {
   }
 
   .orgs {
-    height: 80px;
+    height: 120px;
   }
 
   .videoSize > iframe {
@@ -282,9 +282,11 @@ footer {
     width: 360px;
     height: 170px;
   }
+}
 
+@media all and (max-width: 400px) {
   .latestSermonVideo iframe {
     width: 360px;
-    height: 170px;
+    height: 200px;
   }
 }
