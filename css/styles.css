@@ -150,7 +150,7 @@ h2 {
 }
 
 .orgs {
-  height: 100px;
+  height: 150px;
 }
 
 .videoSize > iframe {
@@ -163,6 +163,24 @@ footer {
   background-color: black;
   text-align: center;
   font-weight: bold;
+}
+
+.fbIcon {
+  border-radius: 5px;
+  padding: 9px;
+  width: 80px;
+  height: 80px;
+}
+
+.ytIcon {
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+.ytIcon:hover, .fbIcon:hover {
+  transition-duration: 0.5s;
+  background-color: white;
 }
 
 /* Default Hamburger Menu (Hidden) */
