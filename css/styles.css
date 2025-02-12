@@ -82,7 +82,7 @@ h2 {
   outline: 5px solid white;
   display: inline-block;
   padding: 25px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 8px;
 }
 
