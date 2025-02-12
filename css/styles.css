@@ -215,10 +215,6 @@ footer {
 }
 
 @media all and (max-width: 930px) {
-  h1 {
-    font-size: 60px;
-  }
-
   .navBar {
     gap: 20px;
   }
@@ -289,10 +285,6 @@ footer {
 }
 
 @media all and (max-width: 540px) {
-  h1 {
-    font-size: 55px;
-  }
-
   .latestSermonVideo iframe {
     width: 380px;
     height: 230px;
@@ -300,10 +292,6 @@ footer {
 }
 
 @media all and (max-width: 470px) {
-  h1 {
-    font-size: 50px;
-  }
-
   h2 {
     font-size: 35px;
   }
