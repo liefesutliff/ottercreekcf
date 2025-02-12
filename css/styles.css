@@ -62,13 +62,14 @@ body {
 }
 
 #homeTitle {
+  font-size: 85px;
   font-family: "Bonheur Royale", serif;
   font-weight: 400;
   font-style: normal;
   text-shadow: 5px 5px 10px #aaa;
 }
 
-h1 {
+.headTitle {
   font-size: 85px;
 }
 
@@ -91,7 +92,7 @@ h2 {
   border-radius: 8px;
 }
 
-.prevSermons {
+.prevSermonsYT {
   color: white;
   background-color: rgb(230, 0, 0);
   font-size: 50px;
@@ -100,7 +101,11 @@ h2 {
   text-decoration: none;
 }
 
-.prevSermons:hover {
+#ytLinkIcon {
+  font-size: 34px
+}
+
+.prevSermonsYT:hover {
   transition-duration: 0.6s;
   background-color: red;
   cursor: pointer;
@@ -274,6 +279,22 @@ footer {
     font-size: 30px;
   }
 
+  .prevSermonsYT {
+    font-size: 30px;
+  }
+
+  #ytLinkIcon {
+    font-size: 26px
+  }
+
+  .headTitle {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
   .orgs {
     height: 120px;
   }
@@ -292,10 +313,6 @@ footer {
 }
 
 @media all and (max-width: 470px) {
-  h2 {
-    font-size: 35px;
-  }
-
   .box {
     font-size: 30px;
   }
@@ -306,7 +323,15 @@ footer {
   }
 
   .mediaButtons {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .prevSermonsYT {
+    font-size: 25px;
+  }
+
+  #ytLinkIcon {
+    font-size: 20px
   }
 }
 
@@ -315,8 +340,18 @@ footer {
     width: 360px;
     height: 200px;
   }
+}
 
+@media all and (max-width: 345px) {
   .mediaButtons {
-    font-size: 15px;
+    font-size: 20px;
+  }
+
+  .prevSermonsYT {
+    font-size: 20px;
+  }
+
+  #ytLinkIcon {
+    font-size: 18px
   }
 }
