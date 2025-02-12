@@ -70,15 +70,15 @@ body {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 75px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .box {
-  font-size: 30px;
+  font-size: 60px;
   outline: 5px solid white;
   display: inline-block;
   padding: 25px;
@@ -89,7 +89,7 @@ h2 {
 .prevSermons {
   color: white;
   background-color: rgb(230, 0, 0);
-  font-size: 40px;
+  font-size: 50px;
   padding: 20px;
   border-radius: 8px;
   text-decoration: none;
@@ -210,6 +210,10 @@ footer {
 }
 
 @media all and (max-width: 930px) {
+  h1 {
+    font-size: 60px;
+  }
+
   .navBar {
     gap: 20px;
   }
@@ -256,14 +260,11 @@ footer {
   }
 }
 
-@media all and (max-width: 540px) {
-  .latestSermonVideo iframe {
-    width: 380px;
-    height: 230px;
-  }
-}
-
 @media all and (max-width: 660px) {
+  .box {
+    font-size: 40px;
+  }
+
   .mediaButtons {
     font-size: 30px;
   }
@@ -278,7 +279,30 @@ footer {
   }
 }
 
+@media all and (max-width: 540px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .latestSermonVideo iframe {
+    width: 380px;
+    height: 230px;
+  }
+}
+
 @media all and (max-width: 470px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .box {
+    font-size: 30px;
+  }
+
   .videoSize > iframe {
     width: 360px;
     height: 170px;
