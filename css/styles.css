@@ -326,6 +326,10 @@ footer {
     font-size: 25px;
   }
 
+  .headTitle {
+    font-size: 40px;
+  }
+
   .prevSermonsYT {
     font-size: 25px;
   }
@@ -345,6 +349,10 @@ footer {
 @media all and (max-width: 345px) {
   .mediaButtons {
     font-size: 20px;
+  }
+
+  .headTitle {
+    font-size: 30px;
   }
 
   .prevSermonsYT {
