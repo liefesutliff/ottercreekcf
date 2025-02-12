@@ -282,11 +282,19 @@ footer {
     width: 360px;
     height: 170px;
   }
+
+  .mediaButtons {
+    font-size: 20px;
+  }
 }
 
 @media all and (max-width: 400px) {
   .latestSermonVideo iframe {
     width: 360px;
     height: 200px;
+  }
+
+  .mediaButtons {
+    font-size: 15px;
   }
 }
