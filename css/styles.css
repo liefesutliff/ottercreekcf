@@ -6,7 +6,7 @@ html {
   min-height: 100%;
   min-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(131, 199, 255);
+  background-color: rgb(189, 226, 255);
   color: white;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .navBar {
-  background-color: rgb(189, 226, 255);
+  background-color: rgb(213, 235, 252);
   display: flex;
   justify-content: center; /* Centers links evenly */
   gap: 30px; /* Adds equal spacing between links */
