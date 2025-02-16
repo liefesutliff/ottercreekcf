@@ -116,6 +116,10 @@ h2 {
   height: 630px;
 }
 
+.retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
+  width: 1120px;
+  height: 630px;
+}
 
 .mediaButtons {
   color: rgb(0, 0, 0);
@@ -169,6 +173,8 @@ h2 {
   height: 315px;
 }
 
+#fullscreen:visited {color: rgb(53, 53, 255);}
+
 footer {
   font-size: 20px;
   background-color: black;
@@ -207,6 +213,11 @@ footer {
     width: 920px;
     height: 430px;
   }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
+    width: 920px;
+    height: 430px;
+  }
 }
 
 @media all and (max-width: 1050px) {
@@ -229,6 +240,11 @@ footer {
   }
 
   .latestSermonVideo iframe {
+    width: 720px;
+    height: 400px;
+  }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
     width: 720px;
     height: 400px;
   }
@@ -268,6 +284,11 @@ footer {
     width: 520px;
     height: 330px;
   }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
+    width: 520px;
+    height: 330px;
+  }
 }
 
 @media all and (max-width: 660px) {
@@ -303,10 +324,20 @@ footer {
     width: 460px;
     height: 215px;
   }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
+    width: 460px;
+    height: 215px;
+  }
 }
 
 @media all and (max-width: 540px) {
   .latestSermonVideo iframe {
+    width: 380px;
+    height: 230px;
+  }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
     width: 380px;
     height: 230px;
   }
@@ -318,6 +349,11 @@ footer {
   }
 
   .videoSize > iframe {
+    width: 360px;
+    height: 170px;
+  }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
     width: 360px;
     height: 170px;
   }
@@ -341,6 +377,11 @@ footer {
 
 @media all and (max-width: 400px) {
   .latestSermonVideo iframe {
+    width: 360px;
+    height: 200px;
+  }
+
+  .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
     width: 360px;
     height: 200px;
   }
