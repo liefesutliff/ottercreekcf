@@ -69,10 +69,6 @@ body {
   text-shadow: 5px 5px 10px #aaa;
 }
 
-.headTitle {
-  font-size: 85px;
-}
-
 h2 {
   font-size: 45px;
 }
@@ -248,6 +244,10 @@ footer {
     width: 720px;
     height: 400px;
   }
+
+  #homeTitle {
+    font-size: 90px;
+  }
 }
 
 @media all and (max-width: 815px) {
@@ -289,6 +289,10 @@ footer {
     width: 520px;
     height: 330px;
   }
+
+  #homeTitle {
+    font-size: 80px;
+  }
 }
 
 @media all and (max-width: 660px) {
@@ -329,6 +333,10 @@ footer {
     width: 460px;
     height: 215px;
   }
+
+  #homeTitle {
+    font-size: 65px;
+  }
 }
 
 @media all and (max-width: 540px) {
@@ -340,6 +348,10 @@ footer {
   .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
     width: 380px;
     height: 230px;
+  }
+
+  #homeTitle {
+    font-size: 55px;
   }
 }
 
