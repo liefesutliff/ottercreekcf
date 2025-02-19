@@ -162,7 +162,7 @@ h2 {
 }
 
 .orgs {
-  height: 150px;
+  height: 110px;
 }
 
 .videoSize > iframe {
@@ -170,7 +170,9 @@ h2 {
   height: 315px;
 }
 
-#fullscreen:visited {color: rgb(53, 53, 255);}
+#fullscreen:visited {
+  color: rgb(53, 53, 255);
+}
 
 footer {
   font-size: 20px;
@@ -182,14 +184,14 @@ footer {
 .fbIcon {
   border-radius: 5px;
   padding: 9px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .ytIcon {
   border-radius: 5px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .ytIcon:hover, .fbIcon:hover {
@@ -322,7 +324,7 @@ footer {
   }
 
   .orgs {
-    height: 120px;
+    height: 95px;
   }
 
   .videoSize > iframe {
