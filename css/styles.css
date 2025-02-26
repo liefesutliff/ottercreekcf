@@ -32,10 +32,6 @@ body {
   z-index: 3;
 }
 
-.topContactList a {
-  color: white;
-}
-
 #ytIcon {
   color: red;
 }
@@ -116,6 +112,10 @@ body {
 
 .content h2 {
   font-size: 45px;
+}
+
+.contactPhoneNumber, .contactPhoneNumber:visited {
+  color: rgb(53, 53, 255)
 }
 
 .content {
@@ -213,7 +213,7 @@ body {
   height: 315px;
 }
 
-#fullscreen:visited {
+#fullscreenCalendar, #fullscreenCalendar:visited {
   color: rgb(53, 53, 255);
 }
 
