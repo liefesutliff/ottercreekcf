@@ -33,11 +33,25 @@ body {
 }
 
 #ytIcon {
+  border-radius: 5px;
+  padding: 1px 3px;
   color: red;
 }
 
 #fbIcon {
+  border-radius: 5px;
+  padding: 2px 4px;
   color: blue;
+}
+
+#ytIcon:hover {
+  transition-duration: 0.5s;
+  background-color: white;
+}
+
+#fbIcon:hover {
+  transition-duration: 0.5s;
+  background-color: white;
 }
 
 .fa-brands {
