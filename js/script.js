@@ -1,5 +1,6 @@
 function toggleMenu() {
   const navBar = document.querySelector('.navBar');
+  const socialNavBar = document.querySelector('.socialNavBar');
   navBar.classList.toggle('showMenu');
 }
 

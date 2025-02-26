@@ -18,17 +18,47 @@ body {
   min-height: 100vh;
 }
 
-.navBar {
-  background-color: rgb(213, 235, 252);
-  display: flex;
-  justify-content: center; /* Centers links evenly */
-  gap: 30px; /* Adds equal spacing between links */
-  box-shadow: 0px 0px 10px 0px rgb(15, 15, 15);
-  padding: 20px;
+.navContactList {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 10px;
+  z-index: 3;
+}
+
+.navContactList a {
+  color: white;
+}
+
+#ytIcon {
+  color: red;
+}
+
+#fbIcon {
+  color: rgb(0, 0, 255);
+}
+
+.navBar {
+  background-color: rgb(213, 235, 252);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0px 0px 10px 0px rgb(15, 15, 15);
+  padding: 20px;
+  position: fixed;
+  top:54px; /* Adjust this value based on the height of .navContactList */
+  width: 100%;
   z-index: 2;
+}
+
+.socialNavBar {
+  display: none;
 }
 
 .navBar a {
@@ -70,13 +100,17 @@ body {
   padding: 10px;
 }
 
-h2 {
+.headTitle {
+  font-size: 75px;
+}
+
+.content h2 {
   font-size: 45px;
 }
 
 .content {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 130px;
   flex-grow: 1;
 }
 
@@ -180,19 +214,6 @@ footer {
   font-weight: bold;
 }
 
-.fbIcon {
-  border-radius: 5px;
-  padding: 9px;
-  width: 60px;
-  height: 60px;
-}
-
-.ytIcon {
-  border-radius: 5px;
-  width: 60px;
-  height: 60px;
-}
-
 .ytIcon:hover, .fbIcon:hover {
   transition-duration: 0.5s;
   background-color: white;
@@ -253,10 +274,19 @@ footer {
 }
 
 @media all and (max-width: 815px) {
+  .navContactList {
+    display: none;
+  }
+
+  .socialNavBar {
+    display: inline;
+  }
+
   .navBar {
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    top: 0;
   }
 
   .navBar a {
@@ -274,10 +304,6 @@ footer {
 
   .navBar.showMenu a {
     display: block;
-  }
-
-  .content {
-    padding-top: 0px;
   }
 }
 
