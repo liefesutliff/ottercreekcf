@@ -56,13 +56,13 @@ function womensRetreat2023() {
   } else {
     // Inject new content if the div is empty
     divElement.innerHTML = `
-      <br><a href="media/WomensRetreat2023Session1.pdf" target="_blank">Download Session 1 PDF</a><br><br>
+      <br><a href="media/WomensRetreat2023Session1.pdf" target="_blank" style="color: blue;">Download Session 1 PDF</a><br><br>
       <div class="videoSize"><iframe src="https://www.youtube.com/embed/5jswixRLqC8?si=3I0AIzdKjJV3-VwS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br><br>
-      <a href="media/WomensRetreat2023Session2.pdf" target="_blank">Download Session 2 PDF</a><br><br>
+      <a href="media/WomensRetreat2023Session2.pdf" target="_blank" style="color: blue;">Download Session 2 PDF</a><br><br>
       <div class="videoSize"><iframe src="https://www.youtube.com/embed/iqSDAezJ1M4?si=MJAljUE9dqhrSL6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br><br>
-      <a href="media/WomensRetreat2023Session3.pdf" target="_blank">Download Session 3 PDF</a><br><br>
+      <a href="media/WomensRetreat2023Session3.pdf" target="_blank" style="color: blue;">Download Session 3 PDF</a><br><br>
       <div class="videoSize"><iframe src="https://www.youtube.com/embed/KSQavE-01pU?si=uR4yQkvkaPNMGNBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br><br>
-      <a href="media/WomensRetreat2023Session4.pdf" target="_blank">Download Session 4 PDF</a><br><br>
+      <a href="media/WomensRetreat2023Session4.pdf" target="_blank" style="color: blue;">Download Session 4 PDF</a><br><br>
       <div class="videoSize"><iframe src="https://www.youtube.com/embed/ptKTG3Y_odc?si=0bST-63gb1ifhhkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br><br>
     `;
     retreat2023ContentVisible = true; // Update the flag
