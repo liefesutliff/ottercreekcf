@@ -20,7 +20,7 @@ body {
 
 .topContactList {
   display: block;
-  background-color: rgb(0, 12, 22);
+  background-color: rgb(46, 46, 46);
   color: white;
   text-align: center;
   font-size: 30px;
@@ -81,6 +81,11 @@ body {
   z-index: 2;
 }
 
+#occfLogo > img {
+  width: 200px;
+  height: 200px;
+}
+
 .navBar a {
   color: black;
   outline: 2px solid black;
@@ -116,7 +121,7 @@ body {
   font-family: "Bonheur Royale", serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 5px 5px 10px #aaa;
+  text-shadow: 0px 0px 10px #aaa;
   padding: 10px;
 }
 
@@ -134,7 +139,7 @@ body {
 
 .content {
   text-align: center;
-  padding-top: 130px;
+  padding-top: 210px;
   flex-grow: 1;
 }
 
