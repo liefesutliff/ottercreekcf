@@ -1,3 +1,4 @@
+//Website made and managed by Liefe Sutliff
 function toggleMenu() {
   const navBar = document.querySelector('.navBar');
   navBar.classList.toggle('showMenu');
