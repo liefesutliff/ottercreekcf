@@ -82,7 +82,7 @@ body {
   z-index: 2;
 }
 
-#occfLogo > img {
+#occfLogo {
   width: 200px;
   height: 200px;
 }
