@@ -130,8 +130,9 @@ body {
   font-size: 75px;
 }
 
-.content h2 {
+h2 {
   font-size: 45px;
+  padding: 10px;
 }
 
 .contactPhoneNumber, .contactPhoneNumber:visited {
