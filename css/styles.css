@@ -42,7 +42,7 @@ body {
 #fbIcon {
   border-radius: 5px;
   padding: 2px 4px;
-  color: blue;
+  color: rgb(53, 53, 255);
 }
 
 #ytIcon:hover {
