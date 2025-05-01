@@ -213,6 +213,10 @@ h2 {
   padding: 10px;
 }
 
+.liveStream {
+  font-size: 30px;
+}
+
 .whoWeAre {
   display: inline-block;
   width: 75%;
@@ -391,12 +395,17 @@ footer {
   #homeTitle {
     font-size: 80px;
   }
-}
 
-@media all and (max-width: 660px) {
   .box {
     font-size: 40px;
   }
+
+  .liveStream {
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 660px) {
 
   .mediaButtons {
     font-size: 30px;
@@ -447,11 +456,24 @@ footer {
   #homeTitle {
     font-size: 55px;
   }
+
+  .box {
+    font-size: 35px;
+  }
+
+  .liveStream {
+    font-size: 20px;
+  }
 }
 
 @media all and (max-width: 470px) {
   .box {
-    font-size: 30px;
+    font-size: 25px;
+    padding: 10px 60px;
+  }
+
+  .liveStream {
+    font-size: 15px;
   }
 
   .videoSize > iframe {
@@ -495,6 +517,14 @@ footer {
   .ctoOrg {
     height: 95px;
   }
+
+  .box {
+    font-size: 20px;
+  }
+
+  .liveStream {
+    font-size: 12px;
+  }
 }
 
 @media all and (max-width: 345px) {
@@ -516,5 +546,14 @@ footer {
 
   .ctoOrg {
     height: 85px;
+  }
+
+  .box {
+    font-size: 20px;
+    padding: 10px 35px;
+  }
+
+  .liveStream {
+    font-size: 12px;
   }
 }
