@@ -69,40 +69,55 @@ body {
   width: 100%;
 }
 
-.navBar {
+.navbar {
   background-color: rgb(155, 201, 255);
   display: flex;
-  justify-content: center;
-  gap: 30px;
-  box-shadow: 0px 0px 10px 0px rgb(15, 15, 15);
-  padding: 20px;
-  position: fixed;
-  top:54px;
-  width: 100%;
-  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
 }
 
-#occfLogo {
-  width: 225px;
-  height: 225px;
-}
-
-.navBar a {
-  color: black;
-  outline: 2px solid black;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
+.logo {
   font-size: 40px;
+  font-weight: bold;
 }
 
-.navBar a:hover {
-  transition-duration: 0.4s;
-  background-color: rgb(255, 255, 255);
+.logo img {
+  width: 70px;
+  aspect-ratio: 1/1;
 }
 
-.navBar a.active {
-  background-color: rgb(255, 255, 255);
+.nav-links {
+  list-style: none;
+  display: flex;
+  /* margin-right: 40px; */
+  gap: 40px;
+}
+
+.nav-links li a {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a.active {
+  color: blue;
+}
+
+.nav-links li a:hover {
+  color: blue;
+  transition-duration: 0.3s;
+}
+
+/* Toggle Button (Hamburger) */
+.toggle-btn {
+  display: none;
+  font-size: 50px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 .backgroundImg {
@@ -141,7 +156,6 @@ h2 {
 
 .content {
   text-align: center;
-  padding-top: 210px;
   flex-grow: 1;
 }
 
@@ -281,12 +295,29 @@ footer {
   background-color: white;
 }
 
-/* Default Hamburger Menu (Hidden) */
-.hamburger {
-  display: none;
-  font-size: 40px;
-  cursor: pointer;
-  color: black;
+@media all and (max-width: 1330px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 0px 0px 0px 8px;
+  }
+
+  .nav-links li a {
+    padding: 20px 100px 20px 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
 }
 
 @media all and (max-width: 1150px) {
@@ -336,9 +367,6 @@ footer {
 }
 
 @media all and (max-width: 815px) {
-  .topContactList {
-    display: none;
-  }
 
   .navBar > .socialNavBar > a {
     font-size: 50px;
