@@ -122,6 +122,10 @@ body {
   cursor: pointer;
 }
 
+.toggle-btn:hover {
+  color: #ffe05c;
+}
+
 .backgroundImg {
   position: fixed;
   width: 100%;
