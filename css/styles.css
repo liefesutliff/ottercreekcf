@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+a:visited {
+  color: rgb(0, 0, 255);
+}
+
 html {
   min-height: 100%;
   min-width: 100%;
@@ -109,7 +113,6 @@ body {
 
 .nav-links li a:hover {
   color: rgb(0, 0, 255);
-  transition-duration: 0.2s;
 }
 
 /* Toggle Button (Hamburger) */
@@ -120,10 +123,6 @@ body {
   color: white;
   border: none;
   cursor: pointer;
-}
-
-.toggle-btn:hover {
-  color: #ffe05c;
 }
 
 .backgroundImg {
@@ -326,6 +325,10 @@ footer {
   .toggle-btn {
     display: block;
     color: white;
+  }
+
+  .toggle-btn:hover {
+    color: #ffe05c;
   }
 
   .toggle-btn.activate {
