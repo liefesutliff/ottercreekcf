@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("menu-toggle");
   const navLinks = document.getElementById("nav-links");
 
-  toggleBtn.addEventListener("click", () => {navLinks.classList.toggle("active");});
+  toggleBtn.addEventListener("click", () => {navLinks.classList.toggle("active"); toggleBtn.classList.toggle("activate")});
 });
 
 function textToggle24() {
