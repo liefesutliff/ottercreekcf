@@ -25,13 +25,11 @@ body {
 
 .topContactList {
   display: block;
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(62, 152, 255);
   color: white;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  position: fixed;
-  top: 0;
   width: 100%;
   padding: 10px;
   z-index: 3;
