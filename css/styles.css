@@ -282,10 +282,6 @@ h2 {
   height: 315px;
 }
 
-#fullscreenCalendar, #fullscreenCalendar:visited {
-  color: rgb(0, 0, 255);
-}
-
 footer {
   font-size: 20px;
   background-color: black;
