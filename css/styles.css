@@ -294,6 +294,14 @@ footer {
   background-color: white;
 }
 
+.eventCalendarMobile {
+  display: none;
+}
+
+.eventCalendarDesktop {
+  display: block;
+}
+
 @media all and (max-width: 1330px) {
   .nav-links {
     display: none;
@@ -338,6 +346,16 @@ footer {
   .retreatVideos2024 > div > iframe, .retreatVideos2023 > div > iframe {
     width: 90%;
   }
+}
+
+@media all and (max-width: 1000px) {
+  .eventCalendarMobile {
+  display: block;
+}
+
+.eventCalendarDesktop {
+  display: none;
+}
 }
 
 @media all and (max-width: 930px) {
