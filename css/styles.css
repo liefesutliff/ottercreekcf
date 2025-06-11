@@ -162,7 +162,7 @@ h2 {
   font-size: 60px;
   outline: 5px solid white;
   display: inline-block;
-  padding: 70px;
+  padding: 0px 70px 70px 70px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 8px;
 }
