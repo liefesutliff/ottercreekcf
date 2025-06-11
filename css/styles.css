@@ -59,10 +59,6 @@ body {
   background-color: white;
 }
 
-.fa-brands {
-  font-size: 55px;
-}
-
 #phoneIcon {
   font-size: 40px;
 }
@@ -232,6 +228,13 @@ h2 {
 
 .liveStream {
   font-size: 30px;
+}
+
+.curPassage {
+  font-size: 35px;
+  background-color: rgb(90, 167, 255, 0.8);
+  padding: 15px 0 15px 0;
+  border-radius: 25px;
 }
 
 .whoWeAre {
