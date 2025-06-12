@@ -322,10 +322,11 @@ footer {
     right: 0;
     background-color: #333;
     padding: 0px;
+    margin-right: 0;
     border-radius: 0 0 0 8px;
     z-index: 2;
     pointer-events: none;
-    transition: opacity 0.22s ease-out;
+    transition: opacity 0.25s ease-out;
   }
 
   .nav-links li a {
