@@ -102,11 +102,11 @@ body {
 }
 
 .nav-links li a.active {
-  color: rgb(0, 0, 255);
+  color: #ffe05c;
 }
 
 .nav-links li a:hover {
-  color: rgb(0, 0, 255);
+  color: #ffe05c;
 }
 
 /* Toggle Button (Hamburger) */
@@ -240,7 +240,7 @@ h2 {
 
 .passage {
   font-weight: bold;
-  color: gold;
+  color: #ffe05c;
 }
 
 .whoWeAre {
@@ -346,11 +346,11 @@ footer {
   }
 
   .toggle-btn:hover {
-    color: #ffe05c;
+    color: blue;
   }
 
   .toggle-btn.activate {
-    color: #ffe05c;
+    color: blue;
   }
 }
 
